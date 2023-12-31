@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main : entry point
- * Return: 0
+/**
+ * main - entry point
+ * description: A C program that print with put function
+ * Return: always 0
  */
 int main(void)
 {
