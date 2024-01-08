@@ -20,16 +20,19 @@ void puts_half(char *str)
 	middle_odd = (len + 2) / 2;
 	if (len % 2 == 0)
 	{
-	while (middle < len)
-	{
-		_putchar(str[middle]);
-		middle++;
-	}
+		while (middle < len)
+		{
+			_putchar(str[middle]);
+			middle++;
+		}
 	}
 	else
 	{
-		_putchar(str[middle_odd]);
-		middle_odd++;
+		while (middle_odd < len)
+		{
+			_putchar(str[middle_odd]);
+			middle_odd++;
+		}
 	}
 	_putchar('\n');
 }
