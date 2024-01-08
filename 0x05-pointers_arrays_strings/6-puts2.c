@@ -7,6 +7,7 @@
 void puts2(char *str)
 {
 	int i, len, j;
+
 	i = 0;
 	j = 0;
 	len = 0;
@@ -22,7 +23,7 @@ void puts2(char *str)
 		{
 			j++;
 		}
-		else 
+		else
 		{
 			_putchar(str[j]);
 			j++;
