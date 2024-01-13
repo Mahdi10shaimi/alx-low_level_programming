@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * main - entry point
  * @argc: parametre
@@ -8,17 +8,17 @@
  */
 int main(int argc, char *argv[])
 {
-	int multp;
+	int m;
 
-	multp = atoi(argv[1]) * atoi(argv[2]);
-	if (argc != 3)
+	if (argc == 3)
 	{
-		printf("Error\n");
-		return (1);
+		m = atoi(argv[1]) * atoi(argv[2]);
+	printf("%d\n", m);
 	}
 	else
 	{
-		printf("%d\n", multp);
+		printf("Error\n");
+	return (1);
 	}
 	return (0);
 }
